@@ -24,7 +24,7 @@ LD_LIBRARY_PATH=/sapmnt/NPL/exe/uc/linuxx86_64 python
 I didn't put that path into the file /etc/ld.so.conf to avoid unintended side
 effects in other SAP tools.
 
-I install PyRFC to be able to call the function module SSFR__PUT__CRETIFICATE
+I install PyRFC to be able to call the function module SSFR_PUT_CERTIFICATE
 to make SSL communication with GitHub trusted after the installation.
 
 You can see the installed certificates in the directory [files/certs](files/certs/).
